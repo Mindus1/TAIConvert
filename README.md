@@ -2,6 +2,7 @@
 
 [![Changelog](https://img.shields.io/github/v/release/Mindus1/taiconvert?include_prereleases&label=changelog)](https://github.com/Mindus1/taiconvert/releases)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/Mindus1/taiconvert/blob/master/LICENSE)
+[![PyPi Version](https://img.shields.io/pypi/v/taiconvert.svg)](https://pypi.org/project/taiconvert)
 
 This CLI can be used to easily convert TavernAI character images to JSON for the different pygmalion Web-UIs.
 
