@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 
 VERSION = "0.1"
@@ -27,7 +27,7 @@ setup(
     },
     license="MIT License",
     version=VERSION,
-    packages=["taiconvert"],
+    packages=find_packages(),
     entry_points="""
         [console_scripts]
         taiconvert=taiconvert.cli:cli
