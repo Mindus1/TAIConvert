@@ -12,8 +12,3 @@ def cli():
 
 cli.add_command(convert, name="convert")
 cli.add_command(extract, name="extract")
-
-
-def first_command(example, option):
-    "Command description goes here"
-    click.echo("Here is some output")
