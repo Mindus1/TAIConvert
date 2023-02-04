@@ -8,3 +8,6 @@ venv
 *.egg-info
 .DS_Store
 .vscode
+build
+dist
+*.spec

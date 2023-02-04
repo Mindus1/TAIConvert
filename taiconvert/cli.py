@@ -1,3 +1,4 @@
+import sys
 import click
 
 from taiconvert.commands import convert, extract
@@ -12,3 +13,7 @@ def cli():
 
 cli.add_command(convert, name="convert")
 cli.add_command(extract, name="extract")
+
+# Run cli function if script is frozen by pyinstaller
+if getattr(sys, "frozen", False):
+    cli(sys.argv[1:])

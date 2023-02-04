@@ -33,6 +33,8 @@ setup(
         taiconvert=taiconvert.cli:cli
     """,
     install_requires=["click", "pillow"],
-    extras_require={"dev": ["black", "flake8", "autopep8", "pre-commit"]},
+    extras_require={
+        "dev": ["black", "flake8", "autopep8", "pre-commit", "pyinstaller"]
+    },
     python_requires=">=3.10",
 )
