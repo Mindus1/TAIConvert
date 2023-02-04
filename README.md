@@ -24,6 +24,8 @@ Normal `pip` installation is also possible:
 $ pip install taiconvert
 ```
 
+You can also used the pre-built pyinstaller binary from the [releases](https://github.com/Mindus1/TAIConvert/releases) page.
+
 ## Usage
 
 For help, run:
